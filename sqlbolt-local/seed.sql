@@ -10,3 +10,8 @@ INSERT INTO movies VALUES (6, 'The Incredibles',	'Brad Bird', 2004, 116);
 INSERT INTO movies VALUES (7, 'Cars', 'John Lasseter', 2006, 117);
 INSERT INTO movies VALUES (8, 'Ratatouille',	'Brad Bird', 2007, 115);
 INSERT INTO movies VALUES (9, 'WALL-E', 'Andrew Stanton', 2008, 104);
+INSERT INTO movies VALUES (10, 'Up', 'Pete Docter', 2009, 101);
+INSERT INTO movies VALUES (11, 'Toy Story 3', 'Lee Unkrich', 2010, 103);
+INSERT INTO movies VALUES (12, 'Cars 2', 'John Lasseter', 2011, 120);
+INSERT INTO movies VALUES (13, 'Brave', 'Brenda Chapman', 2012, 102);
+INSERT INTO movies VALUES (14, 'Monsters University', 'Dan Scanlon', 2013, 110);

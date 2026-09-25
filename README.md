@@ -1,9 +1,13 @@
 # sqlbolt_exercises_repo
 Code repository documenting all the exercises I did on SQLBolt along with summarise of what I learned
 
+> [!NOTE]               
+> ⭐ If you found this repository helpful, please consider giving it a star!
+
 ## Building the Database(s)
 
 SQLBolt uses various data tables for the exercises. Hence I will be replicating these tables.
+
 
 ### The following guide is for VS Code:
 
@@ -38,6 +42,11 @@ INSERT INTO movies VALUES(1, 'Toy Story', 'John Lasseter', 1995, 81);
 INSERT INTO movies VALUES(2, 'A Bug''s Life', 'John Lasseter', 1998, 95);
 INSERT INTO movies VALUES(3, 'Toy Story 2', 'John Lasseter', 1999, 93);
 ```
+>[!Tip]             
+> If you need to add more rows in the future first                 
+> run this command ```sqlite3 sqlbolt.db "DELETE FROM movies;" ```          
+> then run ```sqlite3 sqlbolt.db ".read seed.sql"```
+
 
 #### Step 4: Build and run your local database
 
@@ -63,6 +72,9 @@ SELECT * FROM movies;
 .exit
 ```
 
+>[!Tip]             
+> You can create multiple tables using this same format and files. There is no need to create a new database, just keep adding tables.
+
 ## Writing the solutions
 
 #### Step 1. Create a folder to store the solutions for each lesson                  
@@ -79,5 +91,5 @@ e.g.
 sqlite3 sqlbolt-local/sqlbolt.db ".read lesson_1_select_queries_101/solutions.sql"
 
 -- If you would like the data to the displayed with columns and headers
- -header -column sqlbolt-local/sqlbolt.db ".read lesson_1_select_queries_101/solutions.sql"
+sqlite3 -header -column sqlbolt-local/sqlbolt.db ".read lesson_1_select_queries_101/solutions.sql"
 ```
