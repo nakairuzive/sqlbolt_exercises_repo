@@ -19,8 +19,8 @@ CREATE TABLE IF NOT EXISTS north_american_cities(
 ); 
 
 -- Box office table
-DROP TABLE IF EXISTS box_office;
-CREATE TABLE IF NOT EXISTS box_office(
+DROP TABLE IF EXISTS boxoffice;
+CREATE TABLE IF NOT EXISTS boxoffice(
     Movie_id INTEGER PRIMARY KEY,
     Rating DECIMAL,
     Domestic_sales INTEGER,
