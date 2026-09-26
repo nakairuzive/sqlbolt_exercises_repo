@@ -104,9 +104,9 @@ sqlite3 -header -column sqlbolt-local/sqlbolt.db ".read lesson_1_select_queries_
 - [X] SQL Lesson 1: SELECT queries 101            
 - [x] SQL Lesson 2: Queries with constraints (Pt. 1)          
 - [x] SQL Lesson 3: Queries with constraints (Pt. 2)          
-- [ ] SQL Lesson 4: Filtering and sorting Query results               
-- [ ] SQL Review: Simple SELECT Queries               
-- [ ] SQL Lesson 6: Multi-table queries with JOINs                
+- [X] SQL Lesson 4: Filtering and sorting Query results               
+- [X] SQL Review: Simple SELECT Queries               
+- [] SQL Lesson 6: Multi-table queries with JOINs                
 - [ ] SQL Lesson 7: OUTER JOINs           
 - [ ] SQL Lesson 8: A short note on NULLs             
 - [ ] SQL Lesson 9: Queries with expressions              

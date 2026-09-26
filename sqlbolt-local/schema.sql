@@ -8,3 +8,11 @@ CREATE TABLE movies(
 );
 
 
+CREATE TABLE north_american_cities(
+    City TEXT,
+    Country TEXT,
+    Population INTEGER,
+    Latitude FLOAT,
+    Longitude FLOAT 
+); 
+
