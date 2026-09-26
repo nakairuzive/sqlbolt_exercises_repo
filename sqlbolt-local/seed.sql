@@ -1,24 +1,26 @@
 -- Insert rows into the movies table
 -- Please note that these are not all the records
 
-INSERT INTO movies VALUES (1, 'Toy Story', 'John Lasseter', 1995, 81);
-INSERT INTO movies VALUES (2, 'A Bug''s Life', 'John Lasseter', 1998, 95);
-INSERT INTO movies VALUES (3, 'Toy Story 2', 'John Lasseter', 1993, 93);
-INSERT INTO movies VALUES (4, 'Monsters, Inc.', 'Pete Docter',	2001, 92);
-INSERT INTO movies VALUES (5, 'Finding Nemo', 'Andrew Stanton',	2003, 107);
-INSERT INTO movies VALUES (6, 'The Incredibles',	'Brad Bird', 2004, 116);
-INSERT INTO movies VALUES (7, 'Cars', 'John Lasseter', 2006, 117);
-INSERT INTO movies VALUES (8, 'Ratatouille',	'Brad Bird', 2007, 115);
-INSERT INTO movies VALUES (9, 'WALL-E', 'Andrew Stanton', 2008, 104);
-INSERT INTO movies VALUES (10, 'Up', 'Pete Docter', 2009, 101);
-INSERT INTO movies VALUES (11, 'Toy Story 3', 'Lee Unkrich', 2010, 103);
-INSERT INTO movies VALUES (12, 'Cars 2', 'John Lasseter', 2011, 120);
-INSERT INTO movies VALUES (13, 'Brave', 'Brenda Chapman', 2012, 102);
-INSERT INTO movies VALUES (14, 'Monsters University', 'Dan Scanlon', 2013, 110);
+
+INSERT INTO movies (id,title,director,year, length_minutes) VALUES 
+(1, 'Toy Story', 'John Lasseter', 1995, 81),
+(2, 'A Bug''s Life', 'John Lasseter', 1998, 95),
+(3, 'Toy Story 2', 'John Lasseter', 1993, 93),
+(4, 'Monsters, Inc.', 'Pete Docter',	2001, 92),
+(5, 'Finding Nemo', 'Andrew Stanton',	2003, 107),
+(6, 'The Incredibles',	'Brad Bird', 2004, 116),
+(7, 'Cars', 'John Lasseter', 2006, 117),
+(8, 'Ratatouille',	'Brad Bird', 2007, 115),
+(9, 'WALL-E', 'Andrew Stanton', 2008, 104),
+(10, 'Up', 'Pete Docter', 2009, 101),
+(11, 'Toy Story 3', 'Lee Unkrich', 2010, 103),
+(12, 'Cars 2', 'John Lasseter', 2011, 120),
+(13, 'Brave', 'Brenda Chapman', 2012, 102),
+(14, 'Monsters University', 'Dan Scanlon', 2013, 110);
 
 
 -- Insert rows into the north_american_cities table
-INSERT INTO north_american_cities (city, country, population, latitude, longitude) VALUES
+INSERT INTO north_american_cities (City, Country, Population, Latitude, Longitude) VALUES
 ('Guadalajara', 'Mexico', 1500800, 20.659699, -103.349609),
 ('Toronto', 'Canada', 2795060, 43.653226, -79.383184),
 ('Houston', 'United States', 2195914, 29.760427, -95.369803),
@@ -31,3 +33,20 @@ INSERT INTO north_american_cities (city, country, population, latitude, longitud
 ('Ecatepec de Morelos', 'Mexico', 1742000, 19.601841, -99.050674),
 ('Montreal', 'Canada', 1717767, 45.501689, -73.567256),
 ('Chicago', 'United States', 2718782, 41.878114, -87.629798);
+
+-- Insert rows into the box_office table
+INSERT INTO box_office (Movie_id, Rating, Domestic_sales, International_sales) VALUES
+(5, 8.2, 380843261, 555900000),
+(14, 7.4, 268492764, 475066843),
+(8, 8.0, 206445654, 417277164),
+(12, 6.4, 191452396, 368400000),
+(3, 7.9, 245852179, 239163000),
+(6, 8.0, 261441092, 370001000),
+(9, 8.5, 223808164, 297503696),
+(11, 8.4, 415004880, 648167031),
+(1, 8.3, 191796233, 170162503),
+(7, 7.2, 244082982, 217900167),
+(10, 8.3, 293004164, 438338580),
+(4, 8.1, 289916256, 272900000),
+(2, 7.2, 162798565, 200600000),
+(13, 7.2, 237283207, 301700000);
