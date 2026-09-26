@@ -26,3 +26,20 @@ CREATE TABLE IF NOT EXISTS box_office(
     Domestic_sales INTEGER,
     International_sales INTEGER
 );
+
+-- Buildings table
+DROP TABLE IF EXISTS buildings;
+CREATE TABLE IF NOT EXISTS buildings(
+    Building_name TEXT,
+    Capacity INTEGER
+);
+
+-- Employees table
+DROP TABLE IF EXISTS employees;
+CREATE TABLE IF NOT EXISTS employees(
+    Role TEXT,
+    Name TEXT,
+    Building TEXT,
+    Years_employed INTEGER
+);
+
