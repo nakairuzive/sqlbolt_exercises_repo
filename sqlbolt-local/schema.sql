@@ -6,3 +6,5 @@ CREATE TABLE movies(
     year INTEGER,
     length_minutes INTEGER
 );
+
+

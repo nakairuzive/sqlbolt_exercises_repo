@@ -43,5 +43,3 @@ FROM movies
 WHERE title LIKE '%WALL-%';
 
 
--- SQL Lesson 2: Queries with constraints (Pt. 2)
-
