@@ -1,5 +1,5 @@
 # sqlbolt_exercises_repo
-Code repository documenting all the exercises I did on SQLBolt along with summary of what I learned that can be found in the [CheatSheet.md]() document.
+Code repository documenting all the exercises I did on SQLBolt along with summary of what I learned that can be found in the [CheatSheet.md](CheatSheet.md) document.
 
 > [!NOTE]               
 > ⭐ If you found this repository helpful, please consider giving it a star!
