@@ -112,11 +112,10 @@ sqlite3 -header -column sqlbolt-local/sqlbolt.db ".read lesson_1_select_queries_
 - [x] SQL Lesson 9: Queries with expressions              
 - [x] SQL Lesson 10: Queries with aggregates (Pt. 1)              
 - [x] SQL Lesson 11: Queries with aggregates (Pt. 2)          
-- [ ] SQL Lesson 12: Order of execution of a Query                
-- [ ] SQL Lesson 13: Inserting rows               
-- [ ] SQL Lesson 14: Updating rows            
-- [ ] SQL Lesson 15: Deleting rows                
-- [ ] SQL Lesson 16: Creating tables          
-- [ ] SQL Lesson 17: Altering tables          
-- [ ] SQL Lesson 18: Dropping tables          
-- [ ] SQL Lesson X: To infinity and beyond!      
+- [x] SQL Lesson 12: Order of execution of a Query                
+- [x] SQL Lesson 13: Inserting rows               
+- [x] SQL Lesson 14: Updating rows            
+- [x] SQL Lesson 15: Deleting rows                
+- [x] SQL Lesson 16: Creating tables          
+- [x] SQL Lesson 17: Altering tables          
+- [x] SQL Lesson 18: Dropping tables            
