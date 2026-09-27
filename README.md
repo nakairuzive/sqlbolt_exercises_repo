@@ -1,8 +1,9 @@
 # sqlbolt_exercises_repo
 Code repository documenting all the exercises I did on SQLBolt along with summary of what I learned that can be found in the [CheatSheet.md](CheatSheet.md) document.
+$${\color{yellow}This\ text\ is\ red}$$
 
 > [!NOTE]               
-> ⭐ If you found this repository helpful, please consider giving it a star!
+> ⭐ If you found this repository helpful, please consider giving it a $${\color{yellow}star}$$!
 
 ## Building the Database(s)
 
@@ -64,6 +65,8 @@ sqlite3 sqlbolt.db
 
 3. Test that it works
 ```
+.tables // returns a list of all the tables in the database
+.mode box  //data will be displayed in tables
 SELECT * FROM movies;
 ```
 
