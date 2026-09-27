@@ -1,12 +1,12 @@
 # sqlbolt_exercises_repo
-Code repository documenting all the exercises I did on SQLBolt along with summary of what I learned that can be found in the [CheatSheet.md](CheatSheet.md) document.
+Code repository documenting all the exercises I completed on SQLBolt, along with a summary of what I learned in [CheatSheet.md](CheatSheet.md).
 
 > [!NOTE]               
 > ⭐ If you found this repository helpful, please consider giving it a star!
 
 ## Building the Database(s)
 
-SQLBolt uses various data tables for the exercises. Hence I will be replicating these tables.
+SQLBolt uses various data tables for the exercises. Hence, I will be replicating these tables.
 
 
 ### The following guide is for VS Code:
@@ -50,7 +50,7 @@ INSERT INTO movies VALUES(3, 'Toy Story 2', 'John Lasseter', 1999, 93);
 
 #### Step 4: Build and run your local database
 
-In terminal run the following commands
+In the terminal, run the following commands
 
 1. Create the database
 ```
@@ -75,14 +75,14 @@ SELECT * FROM movies;
 ```
 
 >[!Tip]             
-> You can create multiple tables using this same format and files. There is no need to create a new database, just keep adding tables.
+> You can create multiple tables using this same format and files. There is no need to create a new database; just keep adding tables.
 
 ## Writing the solutions
 
 #### Step 1. Create a folder to store the solutions for each lesson                  
 e.g. 🗁 lesson_1_select_queries_101
 
-#### Step 2. Create a solutions file in the folder
+#### Step 2. Create a solutions file in the folder. 
 e.g.                          
     🗁 lesson_1_select_queries_101                            
                     └─  🗎 solutions.sql
@@ -92,7 +92,7 @@ e.g.
 -- Use either of these commands
 sqlite3 sqlbolt-local/sqlbolt.db ".read lesson_1_select_queries_101/solutions.sql"
 
--- If you would like the data to the displayed with columns and headers
+-- If you would like the data to be displayed with columns and headers
 sqlite3 -header -column sqlbolt-local/sqlbolt.db ".read lesson_1_select_queries_101/solutions.sql"
 ```
 
