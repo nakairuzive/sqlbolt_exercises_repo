@@ -26,6 +26,7 @@ cd sqlbolt-local
 1. Create a file called **schema.sql**, we will create the table here.
 ```
 -- schema.sql
+DROP TABLE IF EXISTS movies;
 CREATE TABLE movies (
   id INTEGER PRIMARY KEY,
   title TEXT,
